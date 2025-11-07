@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تجمع شباب الشريعة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <h1 class="title">تجمع شباب الشريعة</h1>
+      <form id="attendanceForm">
+        <input type="text" id="fullName" placeholder="الاسم الثلاثي" required>
+
+        <div class="select-wrapper">
+          <select id="attendanceType" required>
+            <option value="">نوع الحضور</option>
+            <option value="دوام">دوام</option>
+            <option value="تعويض">تعويض</option>
+            <option value="إضافي">إضافي</option>
+            <option value="واجب">واجب</option>
+          </select>
+        </div>
+
+        <textarea id="note" placeholder="ملاحظات (اختياري)"></textarea>
+
+        <button type="submit" class="submit-btn">📍 تسجيل الحضور</button>
+      </form>
+      <p id="statusMessage"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
