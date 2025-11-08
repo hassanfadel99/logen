@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwrZTU9LqLewAsWSQcCP3U_voOZrnTyhqxQB9MSRyWiKkaSab5s2a3U_gkTalCoxWYV4g/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbzAj1r0t7JfeVyR1rNHbrqD72hXBgNVaMhgOJkR8yY7kbe12xerCPaJAy7FkMNw34Qo8Q/exec";
 
 document.getElementById("attendanceForm").addEventListener("submit", function(e) {
   e.preventDefault();
@@ -42,4 +42,5 @@ document.getElementById("attendanceForm").addEventListener("submit", function(e)
       status.style.color = "#dc2626";
     }
   );
+
 });
